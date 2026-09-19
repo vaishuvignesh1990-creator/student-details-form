@@ -1,0 +1,96 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #4a228f;
+  margin: 0;
+  padding: 0;
+  color: #000;
+}
+
+/* Header */
+#header {
+  background-color: #063970;
+  padding: 20px;
+  color: yellow;
+  text-align: center;
+}
+
+#header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+/* Form container */
+#form-container {
+  background-color: #fff;
+  width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* Form inputs */
+form input[type="text"],
+form input[type="number"],
+form input[type="email"],
+form select {
+  width: 90%;
+  padding: 10px;
+  margin: 8px auto;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Save button */
+#save {
+  background-color: #a3f5cf;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  display:block;
+}
+
+#save:hover {
+  background-color: #10a510;
+}
+
+/* Table */
+table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+/* Delete button */
+button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkred;
+}

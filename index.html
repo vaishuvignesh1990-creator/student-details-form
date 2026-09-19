@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Student-form</title>
+    <script src="form.js"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div  id="header">
+    <h1>student form</h1>
+    </div>
+    <div id="form-container">
+        <form onsubmit="update(); return false">
+            <label for="name">Name</label>
+            <input id="name" type="text"></input>
+            <label for="age">Age</label> 
+            <input id="age" type="number">Age</input>
+            <label for="course">Course</label>
+            <select id="course">
+                <option>Javascript</option>
+                <option>C++</option>
+                <option>Python</option>
+            </select>
+            <label for="mail">Email</label>
+            <input id="mail" type="email"></input>
+            <button id="save" type="submit">Save</button>
+        </form>
+    </div>
+    <table>
+        <tr>
+        <th>NAME</th>
+        <th>AGE</th>
+        <th>COURSE</th>
+        <th>EMAIL</th>
+        <th>ACTION</th>
+        </tr>
+        <tbody id="container"></tbody>
+    </table>
+    <script src="form.js"></script>
+</body>
+</html>
